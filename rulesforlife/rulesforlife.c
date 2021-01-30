@@ -2,13 +2,11 @@
 #include<stdlib.h>
 
 /*
- populate an array with strings
- create a mechanism for grabbing the strings using the date. 
- could be that date values are passed externally.
- */ 
-
-
-
+ Takes to input numbers and generates the sum
+ for use a seed for a random number.
+ The number picks a pseudo random number
+ from the array of J.P. rules for life.
+ */
 
 int main(int argc, char *argv[]) {
 
