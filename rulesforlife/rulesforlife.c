@@ -6,6 +6,9 @@
  for use a seed for a random number.
  The number picks a pseudo random number
  from the array of J.P. rules for life.
+
+I currently use as follows
+date "+%Y %m" | xargs ./rulesforlife
  */
 
 int main(int argc, char *argv[]) {
